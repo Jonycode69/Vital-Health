@@ -38,12 +38,12 @@ label {
 .nav-link > li , a {
     display: block;
     color: #406661;
-    padding: 10px;
-    
+    margin-left: 10px
+    padding: 8px;
 }
 a:hover {
     background: #406661;
-    
+    width: fit-content;
     box-shadow: 3px 5px 10px #406661 insect;
     color: #f5f5f5;
 }
