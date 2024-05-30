@@ -427,10 +427,17 @@ figure {
     }
 }
 @media (max-width: 360px) {
-    .display-content {
-        margin-top: 150px;
+     .display-section {
+        width: auto;
+    }
+    .community {
+        width: auto;
     }
     .head-buttons {
         margin-left: 80px;
     }
+    .header {
+        width: 100vw;
+    }
+    
 }
