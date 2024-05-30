@@ -1,53 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
+        <meta charset="UTF-8">
         <title>Vital Health</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Geologica:wght@100..900&family=Lugrasimo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <main>
-            <section id="header-section" class="header-section">
-                <div class="text-content">
-            <h1 class="head-title">Fitness&nbsp;and&nbsp;Wellbeing<br>Made Easy</h1>
-            <p class="head-subtitle">We provide you support to reach your fitness goals.</p>
-            <input type="button" name="sign-up" value="Sign-up today" class="sign-up">
-        </div>
-            <img src="images/ropes.png" alt="ropes image" class="head-image">
-        </section>
-        <section class="nav-bar" id="nav-bar">
-            <h2 class="logo">Vital Health</h2>
-            <p><a href="#community" class="nav-links">Community</a></p>
-            <p><a href="#classes" class="nav-links">Classes</a></p>
-            <p><a href="#health-plans" class="nav-links">Health plans</a></p>
-            <input type="button" name="sign-in" value="Member sign-in" class="nav-button">
-            <input type="button" name="contact-sales" value="Contact sales" class="nav-button">
-        </section>
-        <section class="community" id="community">
-            <h2 class="community-header">Community</h2>
-            <p class="community-text">We believe in team work and encourage all our members in joining a community they find fit. We accept people of all groups. and class. </p>
-            <img src="images/community.jpg" alt="community image" class="community-image">
-            <input type="button" name="learn-more" value="Learn more" class="community-button">
+        
+       <header class="header">
+        <input type="checkbox" id="check">
+        <label for="check">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+              </svg>
+        </label>
+        <h2>Vital Health</h2>
+      
+            <ul class="nav-link">
+                <li><a href="#community">Community</a></li>
+                <li><a href="#classes">Classes</a></li>
+                <li><a href="#health">Health&nbsp;plans</a></li>
+            </ul>
+        
+        <div class="head-buttons">
+        <input type="button" name="sign-in" value="Member sign-in">
+        <input type="button" name="contact-sales" value="Contact-sales">
+    </div>
 
-        </section>
-        <section class="classes" id="classes">
-            <h2 class="classes-head">Classes</h2>
-            <fieldset>
-                <img src="images/cardio.jpg" width="200px" class="image-classes1" alt="cardio image">
-                <figcaption>Cardio</figcaption>
-            </fieldset>
-            <fieldset>
-                <img src="images/strength.jpg" width="200px" class="image-classes2" alt="strength image">
-                <figcaption>Strength train</figcaption>
-            </fieldset>
-            <fieldset>
-                <img src="images/class1.jpg" width="200px" class="image-classes3 personal-training" alt="class image">
+       </header>
+       <section id="display-section" class="display-section">
+        <div class="display-content">
+        <h1>Fitness and Wellbeing<br>Made Easy</h1>
+        <p>We provide you support to reach your fitness goals.</p>
+        <input type="button" name="sign-up" value="sign-up today" class="signup-button">
+    </div>
+        <img src="/images/ropes.png" class="display-image">
+
+       </section>
+       <section id="community" class="community">
+        <h2>Community</h2>
+        <p>We believe in team work and encourage all our members in joining a community they find fit. We accept people of all groups and class.</p>
+        <img src="/images/community.jpg" alt="community-image" class="community-image">
+        <input type="button" name="learn-more" value="Learn more" class="learn-more">
+       </section>
+       <section id="classes" class="class-section">
+        <h2>Classes</h2>
+        <figure>
+            <img src="/images/cardio.jpg" width="400px" class="class-image">
+            <figcaption>Cardio</figcaption>
+        </figure>
+        <figure>
+            <img src="/images/strength.jpg" width="400px" class="class-image">
+            <figcaption>strength train</figcaption>
+            <figure>
+                <img src="/images/class1.jpg" width="700px" class="class-image1">
                 <figcaption>Personal training</figcaption>
-            </fieldset>
-            <input type="button" name="classes" value="Learn more" class="button-class">
-
-        </section>
-        </main>
+            </figure>
+        </figure>
+        <input type="button" name="booking" value="Book a session" class="booking">
+       </section>
     </body>
 </html>
