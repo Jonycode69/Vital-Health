@@ -426,3 +426,8 @@ figure {
         display: block;
     }
 }
+@media (max-width: 360px) {
+    .display-content {
+        margin-top: 150px;
+    }
+}
