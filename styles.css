@@ -427,8 +427,9 @@ figure {
     }
 }
 @media (max-width: 360px) {
-     .display-section {
-        width: auto;
+    .display-content {
+        margin-top: 150px;
+         width: auto;
     }
     .community {
         width: auto;
