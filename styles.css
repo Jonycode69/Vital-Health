@@ -144,6 +144,10 @@ figure {
 }
 /* media Query */
 @media (max-width: 1080px) {
+    body {
+    font-family: "Roboto";
+    overflow-x: hidden;
+}
     .header > h2, .header > .nav-link  {
         font-size: 0.9rem;
     }
@@ -208,6 +212,10 @@ figure {
     }
 }
 @media (max-width: 768px) {
+    body {
+    font-family: "Roboto";
+    overflow-x: hidden;
+}
     .header > h2, .header > .nav-link  {
         font-size: 0.9rem;
     }
@@ -286,6 +294,10 @@ figure {
 
 }
 @media (max-width: 500px) {
+    body {
+    font-family: "Roboto";
+    overflow-x: hidden;
+}
     label{
         display: block;
         margin-left: 20px;
@@ -431,9 +443,10 @@ figure {
     }
 }
 @media (max-width: 360px) {
-    body {
-        overflow-x: hidden;
-    }
+   body {
+    font-family: "Roboto";
+    overflow-x: hidden;
+}
     .display-content {
         margin-top: 150px;
     }
